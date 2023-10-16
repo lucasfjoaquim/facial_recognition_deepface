@@ -6,6 +6,6 @@ def verify_if_there_are_faces(image_path):
     except Exception as e:
         return False
 
-image_path = 'imagens_teste/obama2.png'
+image_path = '../imagens_teste/obama2.png'
 
 print(verify_if_there_are_faces(image_path))
